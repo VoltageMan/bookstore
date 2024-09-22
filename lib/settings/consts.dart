@@ -213,7 +213,7 @@ class AssetsPath {
   static const ordersIcon = 'assets/icons/profileIcons/orders.svg';
   static const forvardIcon = 'assets/icons/forvard.svg';
   static const favorFilled = 'assets/icons/favor_filled.svg';
-  static const appTitle = 'Yuanshop';
+  static const appTitle = 'Bookstore';
   static const navBarIcons = [
     'assets/icons/navBarIcons/home.svg',
     'assets/icons/navBarIcons/video.svg',

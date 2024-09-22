@@ -1,4 +1,4 @@
-package com.yuanshop.app
+package com.bookstore.app
 
 import io.flutter.embedding.android.FlutterActivity
 
