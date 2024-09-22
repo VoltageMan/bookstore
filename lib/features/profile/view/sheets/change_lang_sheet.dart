@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:hh_express/features/components/widgets/sheet_titles.dart';
-import 'package:hh_express/features/profile/components/sheets_list_tile.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/globals.dart';
+import 'package:bookstore/features/components/widgets/sheet_titles.dart';
+import 'package:bookstore/features/profile/components/sheets_list_tile.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/globals.dart';
 
 class ChangeLangSheet extends StatelessWidget {
   const ChangeLangSheet({super.key});

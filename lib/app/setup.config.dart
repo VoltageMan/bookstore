@@ -9,37 +9,35 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:get_it/get_it.dart' as _i1;
-import 'package:hh_express/repositories/address/address_repo.dart' as _i3;
-import 'package:hh_express/repositories/address/address_repo_impl.dart' as _i4;
-import 'package:hh_express/repositories/auth/auth_repositori.dart' as _i5;
-import 'package:hh_express/repositories/auth/auth_repositori_impl.dart' as _i6;
-import 'package:hh_express/repositories/cart/cart_repository.dart' as _i7;
-import 'package:hh_express/repositories/cart/cart_repository_impl.dart' as _i8;
-import 'package:hh_express/repositories/categories/categories_repository.dart'
+import 'package:bookstore/repositories/address/address_repo.dart' as _i3;
+import 'package:bookstore/repositories/address/address_repo_impl.dart' as _i4;
+import 'package:bookstore/repositories/auth/auth_repositori.dart' as _i5;
+import 'package:bookstore/repositories/auth/auth_repositori_impl.dart' as _i6;
+import 'package:bookstore/repositories/cart/cart_repository.dart' as _i7;
+import 'package:bookstore/repositories/cart/cart_repository_impl.dart' as _i8;
+import 'package:bookstore/repositories/categories/categories_repository.dart'
     as _i9;
-import 'package:hh_express/repositories/categories/categories_repository_impl.dart'
+import 'package:bookstore/repositories/categories/categories_repository_impl.dart'
     as _i10;
-import 'package:hh_express/repositories/chat/chat_repository.dart' as _i11;
-import 'package:hh_express/repositories/chat/chat_repository_impl.dart' as _i12;
-import 'package:hh_express/repositories/filters/filters_repository.dart'
-    as _i15;
-import 'package:hh_express/repositories/filters/filters_repository_impl.dart'
+import 'package:bookstore/repositories/chat/chat_repository.dart' as _i11;
+import 'package:bookstore/repositories/chat/chat_repository_impl.dart' as _i12;
+import 'package:bookstore/repositories/filters/filters_repository.dart' as _i15;
+import 'package:bookstore/repositories/filters/filters_repository_impl.dart'
     as _i16;
-import 'package:hh_express/repositories/notifications/notifications_repo.dart'
+import 'package:bookstore/repositories/notifications/notifications_repo.dart'
     as _i17;
-import 'package:hh_express/repositories/notifications/notifications_repo_impl.dart'
+import 'package:bookstore/repositories/notifications/notifications_repo_impl.dart'
     as _i18;
-import 'package:hh_express/repositories/order/order_repo.dart' as _i19;
-import 'package:hh_express/repositories/order/order_repo_impl.dart' as _i20;
-import 'package:hh_express/repositories/products/product_repo.dart' as _i21;
-import 'package:hh_express/repositories/products/product_repo_impl.dart'
-    as _i22;
-import 'package:hh_express/repositories/profile/favorites/favorites_repository.dart'
+import 'package:bookstore/repositories/order/order_repo.dart' as _i19;
+import 'package:bookstore/repositories/order/order_repo_impl.dart' as _i20;
+import 'package:bookstore/repositories/products/product_repo.dart' as _i21;
+import 'package:bookstore/repositories/products/product_repo_impl.dart' as _i22;
+import 'package:bookstore/repositories/profile/favorites/favorites_repository.dart'
     as _i13;
-import 'package:hh_express/repositories/profile/favorites/favorites_repository_impl.dart'
+import 'package:bookstore/repositories/profile/favorites/favorites_repository_impl.dart'
     as _i14;
-import 'package:hh_express/repositories/video/video_repo.dart' as _i23;
-import 'package:hh_express/repositories/video/video_repo_impl.dart' as _i24;
+import 'package:bookstore/repositories/video/video_repo.dart' as _i23;
+import 'package:bookstore/repositories/video/video_repo_impl.dart' as _i24;
 import 'package:injectable/injectable.dart' as _i2;
 
 extension GetItInjectableX on _i1.GetIt {

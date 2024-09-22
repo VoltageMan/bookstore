@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:hh_express/data/local/asset_client.dart';
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/categories/category_model.dart';
-import 'package:hh_express/repositories/categories/categories_repository.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/local/asset_client.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/categories/category_model.dart';
+import 'package:bookstore/repositories/categories/categories_repository.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: CategoryRepo)

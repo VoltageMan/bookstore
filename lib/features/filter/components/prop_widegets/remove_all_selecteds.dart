@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/filter/bloc/filter_bloc.dart';
-import 'package:hh_express/features/filter/components/remove_selected_cross.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
+import 'package:bookstore/features/filter/components/remove_selected_cross.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class RemoveAllSeleteds extends StatelessWidget {
   RemoveAllSeleteds({super.key});

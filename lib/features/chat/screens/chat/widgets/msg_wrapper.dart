@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/chat/models/message.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/msg_text.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/msg_time.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/ticks.dart';
+import 'package:bookstore/features/chat/models/message.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/msg_text.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/msg_time.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/ticks.dart';
 
 class MessageWrapper extends StatelessWidget {
   const MessageWrapper({

@@ -1,4 +1,4 @@
-import 'package:hh_express/features/chat/models/message.dart';
+import 'package:bookstore/features/chat/models/message.dart';
 import 'package:image_picker/image_picker.dart';
 
 abstract class ChatEvent {}

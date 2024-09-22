@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/chat/bloc/chat_bloc.dart';
-import 'package:hh_express/features/chat/bloc/chat_events.dart';
-import 'package:hh_express/features/chat/models/message.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/chat_date_widget.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/msg_time.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/msg_wrapper.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/chat/bloc/chat_bloc.dart';
+import 'package:bookstore/features/chat/bloc/chat_events.dart';
+import 'package:bookstore/features/chat/models/message.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/chat_date_widget.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/msg_time.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/msg_wrapper.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class MsgsList extends StatefulWidget {
   const MsgsList({

@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/features/video/cubit/video_cubit.dart';
-import 'package:hh_express/features/video/view/details/cubit/video_details_cubit.dart';
-import 'package:hh_express/features/video/view/details/my_video_player.dart';
-import 'package:hh_express/features/video/view/details/video_details_app_bar.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/models/videos/video_model.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/features/video/cubit/video_cubit.dart';
+import 'package:bookstore/features/video/view/details/cubit/video_details_cubit.dart';
+import 'package:bookstore/features/video/view/details/my_video_player.dart';
+import 'package:bookstore/features/video/view/details/video_details_app_bar.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/models/videos/video_model.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class VideoDetails extends StatefulWidget {
   const VideoDetails({super.key, this.index = 0});

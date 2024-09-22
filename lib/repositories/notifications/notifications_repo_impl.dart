@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/api/response_model.dart';
-import 'package:hh_express/repositories/notifications/notifications_repo.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/api/response_model.dart';
+import 'package:bookstore/repositories/notifications/notifications_repo.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: NotificationsRepo)

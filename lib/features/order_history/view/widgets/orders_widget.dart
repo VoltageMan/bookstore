@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/features/orders/components/dashed_line.dart';
-import 'package:hh_express/features/orders/components/order_info_list_tile.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/models/order_history/order_history_model.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/features/orders/components/dashed_line.dart';
+import 'package:bookstore/features/orders/components/order_info_list_tile.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/models/order_history/order_history_model.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class OrderHistoryWidget extends StatelessWidget {
   const OrderHistoryWidget({super.key, this.model});

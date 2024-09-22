@@ -1,6 +1,6 @@
 {
-    "name": "hh_express",
-    "short_name": "hh_express",
+    "name": "bookstore",
+    "short_name": "bookstore",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

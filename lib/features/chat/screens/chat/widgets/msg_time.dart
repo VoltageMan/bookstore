@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hh_express/features/chat/models/message.dart';
+import 'package:bookstore/features/chat/models/message.dart';
 
 class MessageTime extends StatelessWidget {
   const MessageTime({

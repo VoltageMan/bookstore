@@ -1,16 +1,16 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/helpers/confirm_exit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/models/products/product_model.dart';
-import 'package:hh_express/models/property/values/property_value_model.dart';
-import 'package:hh_express/models/state/state_model.dart';
-import 'package:hh_express/repositories/products/product_repo.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/helpers/confirm_exit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/models/products/product_model.dart';
+import 'package:bookstore/models/property/values/property_value_model.dart';
+import 'package:bookstore/models/state/state_model.dart';
+import 'package:bookstore/repositories/products/product_repo.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 part 'home_state.dart';
 

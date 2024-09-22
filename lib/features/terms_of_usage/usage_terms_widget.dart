@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/features/auth/bloc/auth_bloc.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/product_details/view/product_details_body.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/repositories/products/product_repo.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/product_details/view/product_details_body.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/repositories/products/product_repo.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class UsageTermsDialog extends StatefulWidget {
   const UsageTermsDialog({super.key});

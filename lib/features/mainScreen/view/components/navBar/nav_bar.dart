@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/mainScreen/view/components/navBar/cart_icon.dart';
-import 'package:hh_express/features/components/widgets/svg_icons.dart';
-import 'package:hh_express/features/notifications/cubit/notification_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/mainScreen/view/components/navBar/cart_icon.dart';
+import 'package:bookstore/features/components/widgets/svg_icons.dart';
+import 'package:bookstore/features/notifications/cubit/notification_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/settings/consts.dart';
 
 final bodyIndex = ValueNotifier<int>(0);
 

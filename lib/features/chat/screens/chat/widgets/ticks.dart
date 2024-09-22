@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/chat/models/message.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/chat/models/message.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class Ticks extends StatelessWidget {
   const Ticks({

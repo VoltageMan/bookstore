@@ -1,15 +1,15 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/data/remote/interceptors/log_interceptor.dart';
-import 'package:hh_express/features/auth/bloc/auth_bloc.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/overlay_helper.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/models/api/response_model.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
-import 'package:hh_express/settings/globals.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/data/remote/interceptors/log_interceptor.dart';
+import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/overlay_helper.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/models/api/response_model.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore/settings/globals.dart';
 
 mixin DioClientMixin {
   final _DioClient _dio = _DioClient();

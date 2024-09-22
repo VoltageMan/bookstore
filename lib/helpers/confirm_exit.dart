@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/auth/bloc/auth_bloc.dart';
-import 'package:hh_express/features/terms_of_usage/usage_terms_widget.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore/features/terms_of_usage/usage_terms_widget.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/settings/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Confirm {

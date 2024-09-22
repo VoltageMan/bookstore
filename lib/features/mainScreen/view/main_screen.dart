@@ -2,15 +2,15 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hh_express/features/cart/view/cart_body.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/home/view/body.dart';
-import 'package:hh_express/features/mainScreen/view/components/main_app_bar.dart';
-import 'package:hh_express/features/mainScreen/view/components/navBar/nav_bar.dart';
-import 'package:hh_express/features/profile/view/profile_body.dart';
-import 'package:hh_express/features/video/view/home_video.dart';
-import 'package:hh_express/helpers/confirm_exit.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
+import 'package:bookstore/features/cart/view/cart_body.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/home/view/body.dart';
+import 'package:bookstore/features/mainScreen/view/components/main_app_bar.dart';
+import 'package:bookstore/features/mainScreen/view/components/navBar/nav_bar.dart';
+import 'package:bookstore/features/profile/view/profile_body.dart';
+import 'package:bookstore/features/video/view/home_video.dart';
+import 'package:bookstore/helpers/confirm_exit.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({

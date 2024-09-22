@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/home/view/components/product_builder.dart';
-import 'package:hh_express/features/product_details/view/product_details_body.dart';
-import 'package:hh_express/features/search/cubit/search_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/home/view/components/product_builder.dart';
+import 'package:bookstore/features/product_details/view/product_details_body.dart';
+import 'package:bookstore/features/search/cubit/search_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class SearchBody extends StatefulWidget {
   const SearchBody({super.key});
@@ -57,7 +57,6 @@ class _SearchBodyState extends State<SearchBody> {
         if (apiState == SearchAPIState.success && state.models!.isEmpty) {
           return Center(
               child: Text(
-          
             context.l10n.nothingFound,
           ));
         }
@@ -85,7 +84,6 @@ class _SearchBodyState extends State<SearchBody> {
             ),
           ),
         );
-        
       },
     );
   }

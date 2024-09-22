@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 import 'package:another_flushbar/flushbar.dart';
 
 class OverlayHelper {
@@ -92,7 +92,6 @@ class SnackBarHelper {
       margin: AppPaddings.all_12..add(AppPaddings.top_6),
       borderRadius: AppBorderRadiuses.border_8,
       flushbarPosition: FlushbarPosition.TOP,
-      
       title: title,
       animationDuration: AppDurations.duration_500ms,
       duration: Duration(seconds: 2),

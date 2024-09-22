@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/features/terms_of_usage/usage_terms_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/models/product_details/product_details_model.dart';
-import 'package:hh_express/models/products/product_model.dart';
-import 'package:hh_express/models/state/state_model.dart';
-import 'package:hh_express/repositories/products/product_repo.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/features/terms_of_usage/usage_terms_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/models/product_details/product_details_model.dart';
+import 'package:bookstore/models/products/product_model.dart';
+import 'package:bookstore/models/state/state_model.dart';
+import 'package:bookstore/repositories/products/product_repo.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: ProductRepo)

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/components/widgets/product_pagination_bottom.dart';
-import 'package:hh_express/features/home/bloc/home_bloc.dart';
-import 'package:hh_express/features/home/view/components/product_builder.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/components/widgets/product_pagination_bottom.dart';
+import 'package:bookstore/features/home/bloc/home_bloc.dart';
+import 'package:bookstore/features/home/view/components/product_builder.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

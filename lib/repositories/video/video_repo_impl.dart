@@ -1,9 +1,9 @@
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/api/paginated_data_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/models/videos/video_model.dart';
-import 'package:hh_express/repositories/video/video_repo.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/api/paginated_data_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/models/videos/video_model.dart';
+import 'package:bookstore/repositories/video/video_repo.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: VideoRepo)

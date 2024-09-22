@@ -1,10 +1,10 @@
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/models/auth/auth_model.dart';
-import 'package:hh_express/models/auth/user/user_model.dart';
-import 'package:hh_express/repositories/auth/auth_repositori.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/models/auth/auth_model.dart';
+import 'package:bookstore/models/auth/user/user_model.dart';
+import 'package:bookstore/repositories/auth/auth_repositori.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: AuthRepo)

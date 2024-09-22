@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/components/widgets/svg_icons.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/components/widgets/svg_icons.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class ProfileListTile extends StatelessWidget {
   const ProfileListTile({

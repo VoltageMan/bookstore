@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class AuthField extends StatefulWidget {
   const AuthField({

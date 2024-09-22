@@ -1,8 +1,8 @@
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/addres/address_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/repositories/address/address_repo.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/addres/address_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/repositories/address/address_repo.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: AddressRepo)

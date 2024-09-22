@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/models/order_history/order_history_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/repositories/order/order_repo.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/models/order_history/order_history_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/repositories/order/order_repo.dart';
+import 'package:bookstore/settings/enums.dart';
 
 part 'order_history_state.dart';
 

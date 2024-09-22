@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:equatable/equatable.dart';
-import 'package:hh_express/models/property/values/property_value_model.dart';
+import 'package:bookstore/models/property/values/property_value_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import 'package:hh_express/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
 
 part 'cart_order_model.g.dart';
 

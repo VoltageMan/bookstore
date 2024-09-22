@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/components/widgets/favors_image.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/features/components/widgets/svg_icons.dart';
-import 'package:hh_express/features/favors/bloc/favors_bloc.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/models/cart/cart_product_model/cart_product_model.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
-import 'package:hh_express/helpers/routes.dart';
+import 'package:bookstore/features/components/widgets/favors_image.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/features/components/widgets/svg_icons.dart';
+import 'package:bookstore/features/favors/bloc/favors_bloc.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore/helpers/routes.dart';
 
 class FavorsWidget extends StatefulWidget {
   FavorsWidget({

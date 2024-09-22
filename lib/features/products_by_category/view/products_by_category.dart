@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/components/widgets/product_pagination_bottom.dart';
-import 'package:hh_express/features/filter/bloc/filter_bloc.dart';
-import 'package:hh_express/features/home/view/components/product_builder.dart';
-import 'package:hh_express/features/products_by_category/bloc/products_by_category_bloc.dart';
-import 'package:hh_express/features/products_by_category/view/app_bar_prods_by_cat.dart';
-import 'package:hh_express/features/products_by_category/view/products_by_category_info.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/models/categories/category_model.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/components/widgets/product_pagination_bottom.dart';
+import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
+import 'package:bookstore/features/home/view/components/product_builder.dart';
+import 'package:bookstore/features/products_by_category/bloc/products_by_category_bloc.dart';
+import 'package:bookstore/features/products_by_category/view/app_bar_prods_by_cat.dart';
+import 'package:bookstore/features/products_by_category/view/products_by_category_info.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/models/categories/category_model.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class ProductsByCategory extends StatefulWidget {
   const ProductsByCategory({super.key, required this.category});

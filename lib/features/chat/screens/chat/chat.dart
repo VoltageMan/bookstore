@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/features/chat/bloc/chat_bloc.dart';
-import 'package:hh_express/features/chat/bloc/chat_events.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/chat_title.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/chat_with_bg.dart';
-import 'package:hh_express/features/chat/screens/chat/widgets/type_and_send.dart';
-import 'package:hh_express/features/chat/screens/common/back.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/chat/bloc/chat_bloc.dart';
+import 'package:bookstore/features/chat/bloc/chat_events.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/chat_title.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/chat_with_bg.dart';
+import 'package:bookstore/features/chat/screens/chat/widgets/type_and_send.dart';
+import 'package:bookstore/features/chat/screens/common/back.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class DashedLine extends StatelessWidget {
   const DashedLine({super.key, this.isLoading});

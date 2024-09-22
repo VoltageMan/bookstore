@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cached_video_player_fork/cached_video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/features/video/view/details/cubit/video_details_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/models/videos/video_model.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/features/video/view/details/cubit/video_details_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/models/videos/video_model.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class MyVideoPlayerWidget extends StatefulWidget {
   const MyVideoPlayerWidget({

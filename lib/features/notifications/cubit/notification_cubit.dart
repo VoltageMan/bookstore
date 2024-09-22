@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/features/notifications/cubit/notification_state.dart';
-import 'package:hh_express/models/notifications/notification_model.dart';
-import 'package:hh_express/repositories/notifications/notifications_repo.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/features/notifications/cubit/notification_state.dart';
+import 'package:bookstore/models/notifications/notification_model.dart';
+import 'package:bookstore/repositories/notifications/notifications_repo.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class NotificationCubit extends Cubit<NotificationState> {
   NotificationCubit()

@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
-import 'package:hh_express/models/products/product_model.dart';
+import 'package:bookstore/models/products/product_model.dart';
 
 class HomeVideoModel {
   final int id;
@@ -48,7 +48,7 @@ class HomeVideoModel {
       name: map['name'] as String,
       url: map['url'] as String,
       duration: map['duration'] != null ? map['duration'] as String : null,
-      product: ProductModel.fromJson(map['product'] as Map<String,dynamic>),
+      product: ProductModel.fromJson(map['product'] as Map<String, dynamic>),
     );
   }
 

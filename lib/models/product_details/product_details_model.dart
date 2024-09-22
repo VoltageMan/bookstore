@@ -1,6 +1,6 @@
-import 'package:hh_express/models/property/property_model.dart';
-import 'package:hh_express/models/products/product_model.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/models/property/property_model.dart';
+import 'package:bookstore/models/products/product_model.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'product_details_model.g.dart';
 

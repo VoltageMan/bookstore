@@ -1,19 +1,19 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/features/address/cubit/address_cubit.dart';
-import 'package:hh_express/features/cart/cubit/cart_cubit.dart';
-import 'package:hh_express/features/favors/bloc/favors_bloc.dart';
-import 'package:hh_express/features/order_history/cubit/order_history_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/helpers/overlay_helper.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/models/auth/auth_model.dart';
-import 'package:hh_express/models/auth/user/user_model.dart';
-import 'package:hh_express/repositories/auth/auth_repositori.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/features/address/cubit/address_cubit.dart';
+import 'package:bookstore/features/cart/cubit/cart_cubit.dart';
+import 'package:bookstore/features/favors/bloc/favors_bloc.dart';
+import 'package:bookstore/features/order_history/cubit/order_history_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/helpers/overlay_helper.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/models/auth/auth_model.dart';
+import 'package:bookstore/models/auth/user/user_model.dart';
+import 'package:bookstore/repositories/auth/auth_repositori.dart';
+import 'package:bookstore/settings/enums.dart';
 
 part 'auth_state.dart';
 

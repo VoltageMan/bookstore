@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/filter/bloc/filter_bloc.dart';
-import 'package:hh_express/features/filter/components/prop_widegets/selected_color_widget.dart';
-import 'package:hh_express/features/filter/components/remove_selected_cross.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/models/property/values/property_value_model.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
+import 'package:bookstore/features/filter/components/prop_widegets/selected_color_widget.dart';
+import 'package:bookstore/features/filter/components/remove_selected_cross.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/models/property/values/property_value_model.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class SelectedFilterPropWidget extends StatelessWidget {
   SelectedFilterPropWidget({

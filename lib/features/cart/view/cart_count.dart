@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/cart/cubit/cart_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/cart/cubit/cart_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class CartCount extends StatefulWidget {
   const CartCount({

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/home/view/components/photo_sender_widget.dart';
-import 'package:hh_express/features/home/view/components/search_field.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/home/view/components/photo_sender_widget.dart';
+import 'package:bookstore/features/home/view/components/search_field.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class SearchAppbar extends StatelessWidget implements PreferredSizeWidget {
   const SearchAppbar({super.key});

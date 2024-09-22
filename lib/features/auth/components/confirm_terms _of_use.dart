@@ -2,11 +2,11 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/auth/bloc/auth_bloc.dart';
-import 'package:hh_express/helpers/confirm_exit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore/helpers/confirm_exit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class TermsOfUseWidget extends StatefulWidget {
   TermsOfUseWidget({super.key});

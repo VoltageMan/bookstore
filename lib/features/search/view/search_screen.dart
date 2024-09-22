@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/features/search/cubit/search_cubit.dart';
-import 'package:hh_express/features/search/view/search_app_bar.dart';
-import 'package:hh_express/features/search/view/search_body.dart';
+import 'package:bookstore/features/search/cubit/search_cubit.dart';
+import 'package:bookstore/features/search/view/search_app_bar.dart';
+import 'package:bookstore/features/search/view/search_body.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});

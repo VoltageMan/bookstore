@@ -2,15 +2,15 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/components/widgets/place_holder.dart';
-import 'package:hh_express/features/video/view/details/cubit/video_details_cubit.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/modal_sheets.dart';
-import 'package:hh_express/helpers/routes.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/models/products/product_model.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/components/widgets/place_holder.dart';
+import 'package:bookstore/features/video/view/details/cubit/video_details_cubit.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/models/products/product_model.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class SimmilarVideoWidget extends StatelessWidget {
   const SimmilarVideoWidget({

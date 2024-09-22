@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 
 final class ProductPaginationBottom extends StatelessWidget {
   const ProductPaginationBottom({
@@ -16,7 +16,6 @@ final class ProductPaginationBottom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverList.list(
-      
       children: [
         if (state == ProductAPIState.loadingMoreError)
           CategoryErrorBody(

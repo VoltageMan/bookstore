@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hh_express/features/profile/components/selected_indicator.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/theme.dart';
+import 'package:bookstore/features/profile/components/selected_indicator.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/theme.dart';
 
 class ProfileSelectListTile extends StatelessWidget {
   const ProfileSelectListTile(

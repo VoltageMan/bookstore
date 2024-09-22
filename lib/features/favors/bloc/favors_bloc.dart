@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/data/local/secured_storage.dart';
-import 'package:hh_express/models/cart/cart_product_model/cart_product_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/repositories/profile/favorites/favorites_repository.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/data/local/secured_storage.dart';
+import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/repositories/profile/favorites/favorites_repository.dart';
+import 'package:bookstore/settings/enums.dart';
 
 part 'favors_state.dart';
 

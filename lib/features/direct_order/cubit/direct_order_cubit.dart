@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:hh_express/app/setup.dart';
-import 'package:hh_express/models/cart/cart_model/cart_model.dart';
-import 'package:hh_express/models/cart/cart_update/cart_update_model.dart';
-import 'package:hh_express/repositories/cart/cart_repository.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/app/setup.dart';
+import 'package:bookstore/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore/models/cart/cart_update/cart_update_model.dart';
+import 'package:bookstore/repositories/cart/cart_repository.dart';
+import 'package:bookstore/settings/enums.dart';
 
 part 'direct_order_state.dart';
 

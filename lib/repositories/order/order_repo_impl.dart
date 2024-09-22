@@ -1,10 +1,10 @@
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/api/paginated_data_model.dart';
-import 'package:hh_express/models/cart/cart_model/cart_model.dart';
-import 'package:hh_express/models/order_history/order_history_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/repositories/order/order_repo.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/api/paginated_data_model.dart';
+import 'package:bookstore/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore/models/order_history/order_history_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/repositories/order/order_repo.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: OrderRepo)

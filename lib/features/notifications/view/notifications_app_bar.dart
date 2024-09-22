@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/components/widgets/pop_leading.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/features/components/widgets/pop_leading.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
 
 class NotificationsAppBar extends StatelessWidget
     implements PreferredSizeWidget {

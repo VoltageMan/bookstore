@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:shimmer/shimmer.dart';
 
 /// Place holder

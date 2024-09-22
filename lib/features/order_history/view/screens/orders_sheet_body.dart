@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hh_express/features/categories/view/body.dart';
-import 'package:hh_express/features/components/widgets/sheet_titles.dart';
-import 'package:hh_express/features/order_history/cubit/order_history_cubit.dart';
-import 'package:hh_express/features/order_history/view/widgets/orders_widget.dart';
-import 'package:hh_express/features/product_details/view/product_details_body.dart';
-import 'package:hh_express/helpers/extentions.dart';
-import 'package:hh_express/helpers/spacers.dart';
-import 'package:hh_express/settings/consts.dart';
-import 'package:hh_express/settings/enums.dart';
+import 'package:bookstore/features/categories/view/body.dart';
+import 'package:bookstore/features/components/widgets/sheet_titles.dart';
+import 'package:bookstore/features/order_history/cubit/order_history_cubit.dart';
+import 'package:bookstore/features/order_history/view/widgets/orders_widget.dart';
+import 'package:bookstore/features/product_details/view/product_details_body.dart';
+import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore/settings/enums.dart';
 
 class OrdersSheetBody extends StatelessWidget {
   const OrdersSheetBody({super.key});

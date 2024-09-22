@@ -1,9 +1,9 @@
-import 'package:hh_express/data/remote/dio_client.dart';
-import 'package:hh_express/models/api/paginated_data_model.dart';
-import 'package:hh_express/models/cart/cart_product_model/cart_product_model.dart';
-import 'package:hh_express/models/pagination/pagination_model.dart';
-import 'package:hh_express/repositories/profile/favorites/favorites_repository.dart';
-import 'package:hh_express/settings/consts.dart';
+import 'package:bookstore/data/remote/dio_client.dart';
+import 'package:bookstore/models/api/paginated_data_model.dart';
+import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore/repositories/profile/favorites/favorites_repository.dart';
+import 'package:bookstore/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: FavorsRepo)
