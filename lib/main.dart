@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:bookstore/app/app.dart';
 import 'package:bookstore/app/setup.dart';
 import 'package:bookstore/helpers/extentions.dart';
 import 'package:bookstore/settings/consts.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() async {
   configureDependencies(getIt);
@@ -25,6 +25,5 @@ void main() async {
     'RunZoneError \nerror:${error}\nstackTrace:$stack'.log();
     // Restart.restartApp();
     await Future.delayed(Duration.zero);
-    // exit(0);
   });
 }
