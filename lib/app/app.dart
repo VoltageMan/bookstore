@@ -1,6 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:bookstore/app/setup.dart';
 import 'package:bookstore/features/address/cubit/address_cubit.dart';
 import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
@@ -12,8 +9,8 @@ import 'package:bookstore/features/feed_back/cubit/feed_back_cubit.dart';
 import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
 import 'package:bookstore/features/home/bloc/home_bloc.dart';
 import 'package:bookstore/features/mainScreen/view/components/navBar/nav_bar.dart';
-import 'package:bookstore/features/order_history/cubit/order_history_cubit.dart';
 import 'package:bookstore/features/notifications/cubit/notification_cubit.dart';
+import 'package:bookstore/features/order_history/cubit/order_history_cubit.dart';
 import 'package:bookstore/features/product_details/bloc/product_details_bloc.dart';
 import 'package:bookstore/features/products_by_category/bloc/products_by_category_bloc.dart';
 import 'package:bookstore/features/video/cubit/video_cubit.dart';
@@ -24,7 +21,10 @@ import 'package:bookstore/helpers/spacers.dart';
 import 'package:bookstore/repositories/products/product_repo.dart';
 import 'package:bookstore/settings/globals.dart';
 import 'package:bookstore/settings/theme.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -82,7 +82,7 @@ class _MyAppState extends State<MyApp> {
                       builder: (context) {
                         return MediaQuery(
                           data: MediaQuery.of(context)
-                              .copyWith(textScaleFactor: 1),
+                              .copyWith(textScaler: TextScaler.linear(1)),
                           child: child!,
                         );
                       },

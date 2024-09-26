@@ -194,6 +194,8 @@ class AssetsPath {
   static const reloadIcon = 'assets/icons/reload.svg';
   static const deliveryTrackIcon = 'assets/icons/delivery_track.svg';
   static const logoIcon = 'assets/icons/logo_2.svg';
+  static const secondLogoIcon = 'assets/icons/second_logo.svg';
+  
   // static const logoIcon = 'assets/icons/logo.svg';
   static const searchIcon = 'assets/icons/search.svg';
   static const deleteIcon = 'assets/icons/delete.svg';
