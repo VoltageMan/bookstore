@@ -1,8 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:bookstore/data/local/secured_storage.dart';
 import 'package:bookstore/features/address/cubit/address_cubit.dart';
 import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
@@ -15,6 +10,11 @@ import 'package:bookstore/helpers/extentions.dart';
 import 'package:bookstore/helpers/routes.dart';
 import 'package:bookstore/helpers/spacers.dart';
 import 'package:bookstore/settings/consts.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(systemNavigationBarColor: AppColors.appOrange));
+        SystemUiOverlayStyle(systemNavigationBarColor: AppColors.white));
     initApp();
     super.initState();
   }
@@ -68,10 +68,13 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               SizedBox(height: 258.h),
-              SvgPicture.asset(
-                AssetsPath.logoIcon,
-                width: 110,
-                height: 110,
+              Padding(
+                padding: const EdgeInsets.only(right: 22),
+                child: SvgPicture.asset(
+                  AssetsPath.logoIcon,
+                  width: 110,
+                  height: 110,
+                ),
               ),
               AppSpacing.vertical_30,
               AppSpacing.vertical_7,
@@ -89,13 +92,13 @@ class _SplashScreenState extends State<SplashScreen> {
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: AppBorderRadiuses.border_6,
-                        color: AppColors.white),
+                        color: AppColors.black),
                     padding:
                         EdgeInsets.symmetric(horizontal: 12.w, vertical: 6.h),
                     child: Text(
                       'store',
                       style: theme.displayLarge!.copyWith(
-                          color: AppColors.black,
+                          color: AppColors.white,
                           fontSize: 26.sp,
                           fontWeight: FontWeight.bold),
                     ),
@@ -103,12 +106,20 @@ class _SplashScreenState extends State<SplashScreen> {
                 ],
               ),
               Spacer(),
-              Text(
-                'express delivery',
-                style: theme.displayMedium!.copyWith(
-                  fontSize: 16.sp,
-                ),
+
+              // Text(
+              //   'express delivery',
+              //   style: theme.displayMedium!.copyWith(
+              //     fontSize: 16.sp,
+              //   ),
+              // ),
+
+              SvgPicture.asset(
+                AssetsPath.secondLogoIcon,
+                width: 50,
+                height: 50,
               ),
+
               // AnimatedTextKit(
               //   totalRepeatCount: 10,
               //   animatedTexts: [
@@ -136,7 +147,7 @@ class SecondSplash extends StatelessWidget {
       body: Container(
         width: double.infinity,
         decoration: const BoxDecoration(
-          color: AppColors.mainOrange,
+          color: AppColors.green,
         ),
         padding: AppPaddings.vertic_28,
         child: Stack(
