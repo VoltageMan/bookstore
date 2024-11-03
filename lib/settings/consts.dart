@@ -131,7 +131,7 @@ class AppBorderRadiuses {
   static final transparentBorder =
       Border.all(width: 1.5.sp, color: Colors.transparent);
   static final mainBrownBorder =
-      Border.all(width: 1.5.sp, color: AppColors.mainBrown.withOpacity(0.8));
+      Border.all(width: 1.5.sp, color: AppColors.mainOrange.withOpacity(0.8));
 }
 
 class AppColors {

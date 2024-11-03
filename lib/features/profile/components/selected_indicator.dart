@@ -12,7 +12,7 @@ class SheetListTileSelectedIndicator extends StatelessWidget {
       width: 20.sp,
       margin: AppPaddings.vertic_12,
       decoration: BoxDecoration(
-        color: isSelected ? AppColors.mainBrown : Colors.transparent,
+        color: isSelected ? AppColors.mainOrange : Colors.transparent,
         shape: BoxShape.circle,
         border: isSelected
             ? null

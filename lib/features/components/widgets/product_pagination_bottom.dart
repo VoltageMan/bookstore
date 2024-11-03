@@ -26,7 +26,7 @@ final class ProductPaginationBottom extends StatelessWidget {
             padding: AppPaddings.vertic_12,
             alignment: Alignment.center,
             child: CircularProgressIndicator(
-              color: AppColors.mainBrown,
+              color: AppColors.mainOrange,
             ),
           )
       ],

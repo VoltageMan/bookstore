@@ -147,7 +147,7 @@ class _AuthBodyState extends State<AuthBody>
                 TextSpan(
                   text: !forSingUp ? l10n.create : l10n.logIn,
                   style: TextStyle(
-                    color: AppColors.mainBrown,
+                    color: AppColors.mainOrange,
                   ),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {

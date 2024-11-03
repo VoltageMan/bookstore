@@ -73,7 +73,7 @@ class _AuthFieldState extends State<AuthField> {
           enabledBorder: border,
           focusedBorder: border,
         ),
-        cursorColor: AppColors.mainBrown,
+        cursorColor: AppColors.mainOrange,
       ),
     );
   }

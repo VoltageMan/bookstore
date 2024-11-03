@@ -45,7 +45,7 @@ class OverlayHelper {
                 ),
                 AppSpacing.vertical_10,
                 CircularProgressIndicator(
-                  color: AppColors.mainBrown,
+                  color: AppColors.mainOrange,
                 )
               ],
             ),

@@ -30,7 +30,7 @@ class SelectedFilterPropWidget extends StatelessWidget {
         padding: AppPaddings.horiz10_vertic5,
         decoration: BoxDecoration(
           borderRadius: AppBorderRadiuses.border_6,
-          color: AppColors.mainBrown,
+          color: AppColors.mainOrange,
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,

@@ -162,7 +162,7 @@ class _ProdDetailsBodyState extends State<ProdDetailsBody>
                     Text(
                       '${AppPaddings.thousandsSeperator(product.salePrice)} TMT',
                       style: AppTheme.titleMedium16(context).copyWith(
-                        color: AppColors.mainBrown,
+                        color: AppColors.mainOrange,
                       ),
                     ),
                     AppSpacing.horizontal_8,
@@ -264,7 +264,7 @@ final class CenterLoading extends StatelessWidget {
             if (onTap != null) return onTap!();
           },
           child: CircularProgressIndicator(
-            color: AppColors.mainBrown,
+            color: AppColors.mainOrange,
           ),
         ),
       ],

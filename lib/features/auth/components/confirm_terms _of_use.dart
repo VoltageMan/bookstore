@@ -54,7 +54,7 @@ class _TermsOfUseWidgetState extends State<TermsOfUseWidget> {
                     Confirm.confirmTerms(context);
                   },
                 style: TextStyle(
-                    color: AppColors.mainBrown,
+                    color: AppColors.mainOrange,
                     fontWeight: FontWeight.w600,
                     decoration: TextDecoration.underline,
                     decorationThickness: 1.5.h,

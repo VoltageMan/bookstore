@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Container(
           width: double.infinity,
           decoration: BoxDecoration(
-            // color: AppColors.mainBrown,
+            // color: AppColors.mainOrange,
             color: AppColors.white,
             image: DecorationImage(
               image: AssetImage(

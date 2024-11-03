@@ -106,7 +106,7 @@ class _FavorsWidgetState extends State<FavorsWidget> {
                 path: AssetsPath.favorFilled,
                 color: (cubit.isFavor(widget.model?.id ?? 0)
                       ..log(message: '${widget.model!.name}:'))
-                    ? AppColors.mainBrown
+                    ? AppColors.mainOrange
                     : AppColors.darkGrey,
                 contSize: 24.sp,
                 iconSize: 19.w,

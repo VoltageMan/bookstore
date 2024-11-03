@@ -35,7 +35,7 @@ class FilterPropWidget extends StatelessWidget {
               ? AppBorderRadiuses.mainBrownBorder
               : AppBorderRadiuses.transparentBorder,
           color: isSelected
-              ? AppColors.mainBrown.withOpacity(0.13)
+              ? AppColors.mainOrange.withOpacity(0.13)
               : AppColors.lightGrey,
         ),
         child: Row(
@@ -45,7 +45,7 @@ class FilterPropWidget extends StatelessWidget {
             Text(
               model.value,
               style: textTheme.copyWith(
-                color: isSelected ? AppColors.mainBrown : null,
+                color: isSelected ? AppColors.mainOrange : null,
               ),
             ),
           ],
