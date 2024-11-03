@@ -17,7 +17,7 @@ OrderHistoryModel _$OrderHistoryModelFromJson(Map<String, dynamic> json) =>
       total: json['total'] as String,
       subTotal: json['sub_total'] as String,
       uuid: json['uuid'] as String,
-      code: json['code'] as String? ?? ' ',
+      code: json['code'] as String? ?? '  ',
       date: json['date'] as String,
     );
 

@@ -8,7 +8,6 @@
 // coverage:ignore-file
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:get_it/get_it.dart' as _i1;
 import 'package:bookstore/repositories/address/address_repo.dart' as _i3;
 import 'package:bookstore/repositories/address/address_repo_impl.dart' as _i4;
 import 'package:bookstore/repositories/auth/auth_repositori.dart' as _i5;
@@ -38,6 +37,7 @@ import 'package:bookstore/repositories/profile/favorites/favorites_repository_im
     as _i14;
 import 'package:bookstore/repositories/video/video_repo.dart' as _i23;
 import 'package:bookstore/repositories/video/video_repo_impl.dart' as _i24;
+import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 
 extension GetItInjectableX on _i1.GetIt {
