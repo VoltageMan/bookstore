@@ -81,7 +81,7 @@ class _ProdDetailsAppBarState extends State<ProdDetailsAppBar> {
                 ),
                 child: MyImageIcon(
                   path: isFavor ? AssetsPath.favorFilled : AssetsPath.favorIcon,
-                  color: isFavor ? AppColors.mainOrange : AppColors.darkBlue,
+                  color: isFavor ? AppColors.mainBrown : AppColors.darkBlue,
                   contSize: 24.sp,
                   iconSize: 19.w,
                 ),

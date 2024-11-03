@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
@@ -7,6 +8,8 @@ import 'package:bookstore/helpers/routes.dart';
 
 extension Log on Object? {
   void log({StackTrace? stackTrace, String? message}) {
+    if (!kDebugMode) return;
+
     if (this is double) {
       devtools.log(appRouter.location);
     }

@@ -29,7 +29,7 @@ class OrderStateCheck extends StatelessWidget {
             height: ((maxHeight ?? 0) / 2.5) *
                 ((tickedsCount == 0 ? 1 : tickedsCount) - 1),
             width: 2.sp,
-            color: AppColors.appOrange,
+            color: AppColors.mainBrown,
           ),
           Column(
             mainAxisSize: MainAxisSize.max,
@@ -71,7 +71,7 @@ class OrderStateCheck extends StatelessWidget {
                             padding: AppPaddings.all_4,
                             decoration: BoxDecoration(
                               color: tickedsCount > index
-                                  ? AppColors.mainOrange
+                                  ? AppColors.mainBrown
                                   : AppColors.lightGrey,
                               shape: BoxShape.circle,
                             ),

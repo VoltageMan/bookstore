@@ -103,10 +103,10 @@ class ProdColorWidget extends StatelessWidget {
         padding: AppPaddings.all_2,
         decoration: BoxDecoration(
           border: isSelected
-              ? Border.all(color: AppColors.mainOrange)
+              ? Border.all(color: AppColors.mainBrown)
               : Border.all(color: AppColors.black),
           borderRadius: AppBorderRadiuses.border_6,
-          color: isSelected ? AppColors.mainOrange.withOpacity(0.2) : null,
+          color: isSelected ? AppColors.mainBrown.withOpacity(0.2) : null,
         ),
         alignment: Alignment.center,
         child: ClipRRect(

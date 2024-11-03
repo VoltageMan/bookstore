@@ -34,7 +34,7 @@ class _NotificationWidgetState extends State<NotificationWidget> {
           MyImageIcon(
             path: AssetsPath.crossIcon,
             contSize: 24.sp,
-            color: AppColors.mainOrange,
+            color: AppColors.mainBrown,
             onTap: () {
               if (widget.notif != null)
                 notifCubit.deleteNotification(widget.notif!.id);

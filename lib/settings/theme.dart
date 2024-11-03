@@ -61,7 +61,7 @@ class AppTheme {
 
   static final lightTheme = ThemeData(
     useMaterial3: false,
-    primaryColor: AppColors.mainOrange,
+    primaryColor: AppColors.mainBrown,
     colorScheme: ColorScheme.fromSwatch(
       accentColor: AppColors.darkBlue,
     ),
@@ -77,14 +77,14 @@ class AppTheme {
     dialogTheme: DialogTheme(
       titleTextStyle: TextStyle(
         fontWeight: FontWeight.w400,
-        color: AppColors.mainOrange,
+        color: AppColors.mainBrown,
         fontSize: 12.sp,
       ),
     ),
     fontFamily: GoogleFonts.rubik().fontFamily,
     badgeTheme: BadgeThemeData(
       textColor: AppColors.white,
-      backgroundColor: AppColors.mainOrange,
+      backgroundColor: AppColors.mainBrown,
       alignment: Alignment.center,
       padding: EdgeInsets.all(3.5.h),
       textStyle: TextStyle(
@@ -130,7 +130,7 @@ class AppTheme {
       fillColor: MaterialStateColor.resolveWith(
         (states) {
           return states.isNotEmpty && states.last == MaterialState.selected
-              ? AppColors.mainOrange
+              ? AppColors.mainBrown
               : AppColors.white;
         },
       ),
@@ -143,10 +143,10 @@ class AppTheme {
     textButtonTheme: TextButtonThemeData(
       style: MyButtonStyle(
         overlayColor: MaterialStateColor.resolveWith(
-            (states) => AppColors.mainOrange.withOpacity(.15)),
+            (states) => AppColors.mainBrown.withOpacity(.15)),
         myTextStyle: TextStyle(
           fontSize: 12.sp,
-          color: AppColors.mainOrange,
+          color: AppColors.mainBrown,
           fontWeight: FontWeight.w400,
         ),
       ),
@@ -156,11 +156,11 @@ class AppTheme {
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: AppColors.white,
-      selectedItemColor: AppColors.mainOrange,
+      selectedItemColor: AppColors.mainBrown,
       selectedLabelStyle: TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: 10.h,
-        color: AppColors.mainOrange,
+        color: AppColors.mainBrown,
       ),
       unselectedLabelStyle: TextStyle(
         fontWeight: FontWeight.w400,
@@ -216,12 +216,12 @@ class AppTheme {
         color: AppColors.darkBlue,
       ),
       bodyLarge: TextStyle(
-        color: AppColors.mainOrange,
+        color: AppColors.mainBrown,
         fontSize: 14.sp,
         fontWeight: FontWeight.w700,
       ),
       bodySmall: TextStyle(
-        color: AppColors.mainOrange,
+        color: AppColors.mainBrown,
         fontSize: 12.sp,
         fontWeight: FontWeight.w400,
         decoration: TextDecoration.underline,
