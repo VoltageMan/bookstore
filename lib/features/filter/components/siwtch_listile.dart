@@ -22,7 +22,7 @@ class FilterSwithListTile extends StatelessWidget {
         builder: (context, value, child) {
           return CupertinoSwitch(
             value: value,
-            activeColor: AppColors.mainOrange,
+            activeColor: AppColors.mainBrown,
             trackColor: AppColors.darkGrey,
             onChanged: (value) {
               listener.value = !listener.value;

@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(systemNavigationBarColor: AppColors.appOrange));
+        SystemUiOverlayStyle(systemNavigationBarColor: AppColors.white));
     initApp();
     super.initState();
   }
@@ -54,8 +54,8 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Container(
           width: double.infinity,
           decoration: BoxDecoration(
-            // color: AppColors.appOrange,
-            color: AppColors.mediumGrey,
+            // color: AppColors.mainBrown,
+            color: AppColors.white,
             image: DecorationImage(
               image: AssetImage(
                 AssetsPath.splashBackPng,
@@ -65,15 +65,17 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           padding: AppPaddings.vertic_28,
           child: Column(
+            mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              SizedBox(height: 258.h),
+              Spacer(),
+
               SvgPicture.asset(
                 AssetsPath.logoIcon,
-                width: 110,
-                height: 110,
+                width: 147.w,
+                height: 123.h,
               ),
-              AppSpacing.vertical_30,
+              AppSpacing.vertical_20,
               AppSpacing.vertical_7,
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -89,35 +91,32 @@ class _SplashScreenState extends State<SplashScreen> {
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: AppBorderRadiuses.border_6,
-                        color: AppColors.white),
+                        color: AppColors.black),
                     padding:
                         EdgeInsets.symmetric(horizontal: 12.w, vertical: 6.h),
                     child: Text(
                       'store',
                       style: theme.displayLarge!.copyWith(
-                          color: AppColors.black,
+                          color: AppColors.white,
                           fontSize: 26.sp,
                           fontWeight: FontWeight.bold),
                     ),
                   )
                 ],
               ),
-              Spacer(),
-              Text(
-                'express delivery',
-                style: theme.displayMedium!.copyWith(
-                  fontSize: 16.sp,
-                ),
+
+              // Spacer
+              SizedBox(
+                height: 206.h,
               ),
-              // AnimatedTextKit(
-              //   totalRepeatCount: 10,
-              //   animatedTexts: [
-              //     FadeAnimatedText(
-              //       'express delivery',
-              //       textStyle: theme.displayMedium,
-              //     ),
-              //   ],
-              // )
+
+              // Book icon
+              SvgPicture.asset(AssetsPath.bookIcon),
+
+              // Spacer
+              SizedBox(
+                height: 86.h,
+              ),
             ],
           ),
         ),
@@ -136,7 +135,7 @@ class SecondSplash extends StatelessWidget {
       body: Container(
         width: double.infinity,
         decoration: const BoxDecoration(
-          color: AppColors.mainOrange,
+          color: AppColors.mainBrown,
         ),
         padding: AppPaddings.vertic_28,
         child: Stack(

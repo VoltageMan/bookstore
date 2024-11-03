@@ -22,7 +22,7 @@ class RemoveSelectedWidget extends StatelessWidget {
       child: FittedBox(
         child: Icon(
           Icons.close_rounded,
-          color: forAll ? AppColors.lightGrey : AppColors.mainOrange,
+          color: forAll ? AppColors.lightGrey : AppColors.mainBrown,
         ),
       ),
     );

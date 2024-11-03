@@ -32,10 +32,10 @@ class FilterPropWidget extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: AppBorderRadiuses.border_8,
           border: isSelected
-              ? AppBorderRadiuses.appOrangetBorder
+              ? AppBorderRadiuses.mainBrownBorder
               : AppBorderRadiuses.transparentBorder,
           color: isSelected
-              ? AppColors.mainOrange.withOpacity(0.13)
+              ? AppColors.mainBrown.withOpacity(0.13)
               : AppColors.lightGrey,
         ),
         child: Row(
@@ -45,7 +45,7 @@ class FilterPropWidget extends StatelessWidget {
             Text(
               model.value,
               style: textTheme.copyWith(
-                color: isSelected ? AppColors.appOrange : null,
+                color: isSelected ? AppColors.mainBrown : null,
               ),
             ),
           ],

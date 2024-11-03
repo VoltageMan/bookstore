@@ -84,17 +84,17 @@ class PropertyWidget extends StatelessWidget {
           .add(isFirst ? AppPaddings.left_16 : EdgeInsets.zero),
       decoration: BoxDecoration(
         border: isSelected
-            ? Border.all(color: AppColors.mainOrange)
+            ? Border.all(color: AppColors.mainBrown)
             : Border.all(color: AppColors.darkGray),
         borderRadius: AppBorderRadiuses.border_6,
-        color: isSelected ? AppColors.mainOrange.withOpacity(0.2) : null,
+        color: isSelected ? AppColors.mainBrown.withOpacity(0.2) : null,
       ),
       alignment: Alignment.center,
       padding: AppPaddings.horiz_21.add(AppPaddings.vertic_8),
       child: Text(
         value.value,
         style: context.theme.textTheme.displaySmall!.copyWith(
-            color: isSelected ? AppColors.appOrange : AppColors.darkGray),
+            color: isSelected ? AppColors.mainBrown : AppColors.darkGray),
       ),
     );
   }

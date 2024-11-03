@@ -130,8 +130,8 @@ class AppBorderRadiuses {
       Border.all(width: 1.5.sp, color: AppColors.darkGrey);
   static final transparentBorder =
       Border.all(width: 1.5.sp, color: Colors.transparent);
-  static final appOrangetBorder =
-      Border.all(width: 1.5.sp, color: AppColors.appOrange.withOpacity(0.8));
+  static final mainBrownBorder =
+      Border.all(width: 1.5.sp, color: AppColors.mainBrown.withOpacity(0.8));
 }
 
 class AppColors {
@@ -153,6 +153,7 @@ class AppColors {
   //!
   static const appOrange = Color(0xFFFF6600);
   static const mainOrange = Color.fromRGBO(255, 102, 0, 1);
+  static const mainBrown = Color(0xFFA2845E);
   static const darkBlue = Color.fromRGBO(11, 21, 39, 1);
   static const shadowColor = Color.fromRGBO(0, 01, 0, 0.15);
   static const lightGrey = Color.fromRGBO(241, 244, 246, 1);
@@ -214,6 +215,7 @@ class AssetsPath {
   static const forvardIcon = 'assets/icons/forvard.svg';
   static const favorFilled = 'assets/icons/favor_filled.svg';
   static const appTitle = 'Bookstore';
+  static const bookIcon = 'assets/icons/book.svg';
   static const navBarIcons = [
     'assets/icons/navBarIcons/home.svg',
     'assets/icons/navBarIcons/video.svg',
