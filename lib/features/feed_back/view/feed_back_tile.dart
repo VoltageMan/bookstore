@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class FeedBackTile extends StatelessWidget {

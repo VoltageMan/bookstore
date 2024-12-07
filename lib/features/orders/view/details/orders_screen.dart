@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/orders/view/cubit/order_details_cubit.dart';
-import 'package:bookstore/features/orders/view/details/orders_app_bar.dart';
-import 'package:bookstore/features/orders/view/details/order_details_body.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/orders/view/cubit/order_details_cubit.dart';
+import 'package:bookstore.tm/features/orders/view/details/orders_app_bar.dart';
+import 'package:bookstore.tm/features/orders/view/details/order_details_body.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class OrderDetailsScreen extends StatelessWidget {
   const OrderDetailsScreen({

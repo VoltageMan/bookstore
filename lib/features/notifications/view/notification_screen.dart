@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/data/local/secured_storage.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/features/notifications/cubit/notification_cubit.dart';
-import 'package:bookstore/features/notifications/view/notifications_app_bar.dart';
-import 'package:bookstore/features/notifications/view/widget.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/data/local/secured_storage.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/features/notifications/cubit/notification_cubit.dart';
+import 'package:bookstore.tm/features/notifications/view/notifications_app_bar.dart';
+import 'package:bookstore.tm/features/notifications/view/widget.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({super.key});

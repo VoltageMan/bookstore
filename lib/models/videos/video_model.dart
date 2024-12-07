@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
-import 'package:bookstore/models/products/product_model.dart';
+import 'package:bookstore.tm/models/products/product_model.dart';
 
 class HomeVideoModel {
   final int id;

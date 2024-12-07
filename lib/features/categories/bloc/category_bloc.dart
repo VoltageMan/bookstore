@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/models/categories/category_model.dart';
-import 'package:bookstore/repositories/categories/categories_repository.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/models/categories/category_model.dart';
+import 'package:bookstore.tm/repositories/categories/categories_repository.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'category_event.dart';
 part 'category_state.dart';

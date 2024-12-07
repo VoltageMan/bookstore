@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
 
 class LoggerInterceptor extends Interceptor {
   @override

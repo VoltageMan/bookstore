@@ -3,7 +3,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import 'package:bookstore/models/cart/cart_order_model/cart_order_model.dart';
+import 'package:bookstore.tm/models/cart/cart_order_model/cart_order_model.dart';
 
 part 'cart_model.g.dart';
 

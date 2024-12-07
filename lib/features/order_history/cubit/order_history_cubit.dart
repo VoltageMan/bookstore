@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/data/local/secured_storage.dart';
-import 'package:bookstore/models/order_history/order_history_model.dart';
-import 'package:bookstore/models/pagination/pagination_model.dart';
-import 'package:bookstore/repositories/order/order_repo.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/data/local/secured_storage.dart';
+import 'package:bookstore.tm/models/order_history/order_history_model.dart';
+import 'package:bookstore.tm/models/pagination/pagination_model.dart';
+import 'package:bookstore.tm/repositories/order/order_repo.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'order_history_state.dart';
 

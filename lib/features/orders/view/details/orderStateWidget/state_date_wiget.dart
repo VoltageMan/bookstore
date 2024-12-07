@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/cart/cart_model/cart_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class OrderStateWDate extends StatelessWidget {
   const OrderStateWDate({super.key, this.model, required this.isLast});

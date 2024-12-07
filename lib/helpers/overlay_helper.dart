@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 import 'package:another_flushbar/flushbar.dart';
 
 class OverlayHelper {

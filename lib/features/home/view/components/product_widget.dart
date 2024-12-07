@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/models/products/product_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/models/products/product_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class HomeProdWidget extends StatelessWidget {
   const HomeProdWidget({

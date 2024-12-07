@@ -1,4 +1,4 @@
-import 'package:bookstore/models/pagination/pagination_model.dart';
+import 'package:bookstore.tm/models/pagination/pagination_model.dart';
 
 class PaginatedDataModel<T> {
   const PaginatedDataModel({

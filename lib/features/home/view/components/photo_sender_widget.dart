@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
 
 class PhotoSenderWidget extends StatelessWidget {
   const PhotoSenderWidget({super.key});

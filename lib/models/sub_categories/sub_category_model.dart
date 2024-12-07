@@ -1,5 +1,5 @@
-// import 'package:bookstore/models/categories/category_model.dart';
-// import 'package:bookstore/models/products/product_model.dart';
+// import 'package:bookstore.tm/models/categories/category_model.dart';
+// import 'package:bookstore.tm/models/products/product_model.dart';
 // import 'package:json_annotation/json_annotation.dart';
 // part 'sub_category_model.g.dart';
 

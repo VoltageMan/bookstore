@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:bookstore/models/auth/auth_model.dart';
-import 'package:bookstore/models/auth/user/user_model.dart';
+import 'package:bookstore.tm/models/auth/auth_model.dart';
+import 'package:bookstore.tm/models/auth/user/user_model.dart';
 
 abstract class AuthRepo {
   Future<UserModel?> logIn(AuthModel loginReqModel);

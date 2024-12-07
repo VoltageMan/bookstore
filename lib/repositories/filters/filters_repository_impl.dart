@@ -1,7 +1,7 @@
-import 'package:bookstore/data/remote/dio_client.dart';
-import 'package:bookstore/models/property/property_model.dart';
-import 'package:bookstore/repositories/filters/filters_repository.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/data/remote/dio_client.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
+import 'package:bookstore.tm/repositories/filters/filters_repository.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: FilterRepo)

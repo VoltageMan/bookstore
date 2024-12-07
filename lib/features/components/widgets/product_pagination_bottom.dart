@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 final class ProductPaginationBottom extends StatelessWidget {
   const ProductPaginationBottom({

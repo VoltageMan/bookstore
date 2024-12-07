@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/home/view/components/product_builder.dart';
-import 'package:bookstore/features/product_details/view/product_details_body.dart';
-import 'package:bookstore/features/search/cubit/search_cubit.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/home/view/components/product_builder.dart';
+import 'package:bookstore.tm/features/product_details/view/product_details_body.dart';
+import 'package:bookstore.tm/features/search/cubit/search_cubit.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class SearchBody extends StatefulWidget {
   const SearchBody({super.key});

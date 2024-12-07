@@ -1,8 +1,8 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
 
-import 'package:bookstore/settings/enums.dart';
-import 'package:bookstore/settings/globals.dart';
+import 'package:bookstore.tm/settings/enums.dart';
+import 'package:bookstore.tm/settings/globals.dart';
 
 class LocalStorage {
   static final _storage = new FlutterSecureStorage();

@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:bookstore/models/notifications/notification_model.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/models/notifications/notification_model.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class NotificationState {
   final APIState apiState;

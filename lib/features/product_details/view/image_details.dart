@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/product_details/components/image_indicator.dart';
-import 'package:bookstore/features/product_details/components/image_place_holder.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/product_details/components/image_indicator.dart';
+import 'package:bookstore.tm/features/product_details/components/image_place_holder.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:photo_view/photo_view.dart';
 
 class ImageDetails extends StatefulWidget {

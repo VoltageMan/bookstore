@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class ChatDateWidget extends StatelessWidget {
   const ChatDateWidget({super.key, required this.text});

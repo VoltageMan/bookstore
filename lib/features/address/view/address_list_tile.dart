@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/profile/components/selected_indicator.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/models/addres/address_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/profile/components/selected_indicator.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/models/addres/address_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class AddressListTile extends StatelessWidget {
   const AddressListTile({

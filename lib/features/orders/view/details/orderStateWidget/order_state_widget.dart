@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/orders/view/details/orderStateWidget/state_date_wiget.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/cart/cart_model/cart_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/orders/view/details/orderStateWidget/state_date_wiget.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class OrderStateWidget extends StatelessWidget {
   const OrderStateWidget({

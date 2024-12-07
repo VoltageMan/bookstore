@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bookstore/features/chat/models/message.dart';
-import 'package:bookstore/features/chat/screens/chat/widgets/msgs_list.dart';
+import 'package:bookstore.tm/features/chat/models/message.dart';
+import 'package:bookstore.tm/features/chat/screens/chat/widgets/msgs_list.dart';
 
 class ChatWithBackground extends StatelessWidget {
   const ChatWithBackground({

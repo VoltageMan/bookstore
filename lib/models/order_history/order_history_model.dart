@@ -1,4 +1,4 @@
-import 'package:bookstore/models/cart/cart_order_model/cart_order_model.dart';
+import 'package:bookstore.tm/models/cart/cart_order_model/cart_order_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'order_history_model.g.dart';

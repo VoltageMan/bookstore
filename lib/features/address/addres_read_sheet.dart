@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/features/address/cubit/address_cubit.dart';
-import 'package:bookstore/features/address/view/address_sheet_body.dart';
-import 'package:bookstore/features/address/view/address_sheet_title.dart';
-import 'package:bookstore/features/cart/cubit/cart_cubit.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/address/cubit/address_cubit.dart';
+import 'package:bookstore.tm/features/address/view/address_sheet_body.dart';
+import 'package:bookstore.tm/features/address/view/address_sheet_title.dart';
+import 'package:bookstore.tm/features/cart/cubit/cart_cubit.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class AddressReadSheet extends StatelessWidget {
   const AddressReadSheet({

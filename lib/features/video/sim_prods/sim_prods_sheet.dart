@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_keyboard_size/flutter_keyboard_size.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/components/widgets/sheet_titles.dart';
-import 'package:bookstore/features/product_details/view/product_details_body.dart';
-import 'package:bookstore/features/video/video_sim_prods_widget.dart';
-import 'package:bookstore/features/video/sim_prods/cubit/simmilar_prods_cubit.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/helpers/widgets/sliver_pinnded_container.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
+import 'package:bookstore.tm/features/product_details/view/product_details_body.dart';
+import 'package:bookstore.tm/features/video/video_sim_prods_widget.dart';
+import 'package:bookstore.tm/features/video/sim_prods/cubit/simmilar_prods_cubit.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/helpers/widgets/sliver_pinnded_container.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class VideoSimmilarProdsSheet extends StatefulWidget {
   const VideoSimmilarProdsSheet(this.slug, this.id);

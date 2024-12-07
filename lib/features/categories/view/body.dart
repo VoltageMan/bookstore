@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:bookstore/features/categories/view/mainCategories/main_category_builder.dart';
-import 'package:bookstore/features/categories/view/simpleCategories/simple_categories_builder.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/categories/view/mainCategories/main_category_builder.dart';
+import 'package:bookstore.tm/features/categories/view/simpleCategories/simple_categories_builder.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class CategoryBody extends StatefulWidget {
   const CategoryBody({super.key});

@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/models/pagination/pagination_model.dart';
-import 'package:bookstore/models/videos/video_model.dart';
-import 'package:bookstore/repositories/video/video_repo.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/models/pagination/pagination_model.dart';
+import 'package:bookstore.tm/models/videos/video_model.dart';
+import 'package:bookstore.tm/repositories/video/video_repo.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'video_state.dart';
 

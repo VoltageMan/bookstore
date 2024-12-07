@@ -1,4 +1,4 @@
-import 'package:bookstore/models/property/values/property_value_model.dart';
+import 'package:bookstore.tm/models/property/values/property_value_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'property_model.g.dart';
 

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:bookstore/models/api/response_model.dart';
+import 'package:bookstore.tm/models/api/response_model.dart';
 
 abstract class NotificationsRepo {
   Future<ApiResponse> getNotificationsList(

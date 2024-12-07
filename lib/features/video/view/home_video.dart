@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/components/widgets/product_pagination_bottom.dart';
-import 'package:bookstore/features/video/components/video_widget.dart';
-import 'package:bookstore/features/video/cubit/video_cubit.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/components/widgets/product_pagination_bottom.dart';
+import 'package:bookstore.tm/features/video/components/video_widget.dart';
+import 'package:bookstore.tm/features/video/cubit/video_cubit.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class HomeVideos extends StatefulWidget {
   const HomeVideos({super.key});

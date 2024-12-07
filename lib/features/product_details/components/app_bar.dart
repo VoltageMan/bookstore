@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/components/widgets/svg_icons.dart';
-import 'package:bookstore/features/favors/bloc/favors_bloc.dart';
-import 'package:bookstore/features/product_details/bloc/product_details_bloc.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/components/widgets/svg_icons.dart';
+import 'package:bookstore.tm/features/favors/bloc/favors_bloc.dart';
+import 'package:bookstore.tm/features/product_details/bloc/product_details_bloc.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class ProdDetailsAppBar extends StatefulWidget implements PreferredSizeWidget {
   const ProdDetailsAppBar({

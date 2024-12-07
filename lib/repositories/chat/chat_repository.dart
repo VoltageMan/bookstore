@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:bookstore/models/api/response_model.dart';
+import 'package:bookstore.tm/models/api/response_model.dart';
 import 'package:image_picker/image_picker.dart';
 
 abstract class ChatRepo {

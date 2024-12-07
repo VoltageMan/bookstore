@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/cart/cubit/cart_cubit.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/features/components/widgets/nav_bar_body.dart';
-import 'package:bookstore/features/product_details/bloc/product_details_bloc.dart';
-import 'package:bookstore/features/product_details/components/counter_button.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/cart/cart_update/cart_update_model.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/cart/cubit/cart_cubit.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/widgets/nav_bar_body.dart';
+import 'package:bookstore.tm/features/product_details/bloc/product_details_bloc.dart';
+import 'package:bookstore.tm/features/product_details/components/counter_button.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/cart/cart_update/cart_update_model.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class ProdDetailsBottomBar extends StatefulWidget {
   const ProdDetailsBottomBar({

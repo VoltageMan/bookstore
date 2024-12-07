@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/models/videos/video_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/models/videos/video_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:go_router/go_router.dart';
 
 class VideoWidget extends StatelessWidget {

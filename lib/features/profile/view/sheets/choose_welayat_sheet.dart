@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:bookstore/features/components/widgets/sheet_titles.dart';
-import 'package:bookstore/features/profile/components/sheets_list_tile.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
+import 'package:bookstore.tm/features/profile/components/sheets_list_tile.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
 
 class ChooseWelayatSheet extends StatefulWidget {
   const ChooseWelayatSheet({super.key});

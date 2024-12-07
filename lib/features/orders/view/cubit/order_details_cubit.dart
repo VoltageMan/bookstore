@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/models/cart/cart_model/cart_model.dart';
-import 'package:bookstore/repositories/order/order_repo.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore.tm/repositories/order/order_repo.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'order_details_state.dart';
 

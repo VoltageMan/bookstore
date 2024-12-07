@@ -1,15 +1,15 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/data/local/secured_storage.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/overlay_helper.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/models/addres/address_model.dart';
-import 'package:bookstore/models/pagination/pagination_model.dart';
-import 'package:bookstore/repositories/address/address_repo.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/data/local/secured_storage.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/overlay_helper.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/models/addres/address_model.dart';
+import 'package:bookstore.tm/models/pagination/pagination_model.dart';
+import 'package:bookstore.tm/repositories/address/address_repo.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'address_state.dart';
 

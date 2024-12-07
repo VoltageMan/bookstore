@@ -1,23 +1,23 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/auth/view/auth_screen.dart' as auth;
-import 'package:bookstore/features/chat/screens/chat/chat.dart';
-import 'package:bookstore/features/filter/details/view/filter_details.dart';
-import 'package:bookstore/features/filter/selected_details/selected_filter_details.dart';
-import 'package:bookstore/features/more_simmilar_products/view/more_sim_prods.dart';
-import 'package:bookstore/features/my_profile/view/my_profile_screen.dart';
-import 'package:bookstore/features/products_by_category/view/products_by_category.dart';
-import 'package:bookstore/features/mainScreen/view/main_screen.dart';
-import 'package:bookstore/features/notifications/view/notification_screen.dart';
-import 'package:bookstore/features/orders/view/details/orders_screen.dart';
-import 'package:bookstore/features/product_details/view/product_details.dart';
-import 'package:bookstore/features/search/view/search_screen.dart';
-import 'package:bookstore/features/video/view/details/video_details.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/splash_screen.dart';
-import 'package:bookstore/models/categories/category_model.dart';
-import 'package:bookstore/models/property/property_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/auth/view/auth_screen.dart' as auth;
+import 'package:bookstore.tm/features/chat/screens/chat/chat.dart';
+import 'package:bookstore.tm/features/filter/details/view/filter_details.dart';
+import 'package:bookstore.tm/features/filter/selected_details/selected_filter_details.dart';
+import 'package:bookstore.tm/features/more_simmilar_products/view/more_sim_prods.dart';
+import 'package:bookstore.tm/features/my_profile/view/my_profile_screen.dart';
+import 'package:bookstore.tm/features/products_by_category/view/products_by_category.dart';
+import 'package:bookstore.tm/features/mainScreen/view/main_screen.dart';
+import 'package:bookstore.tm/features/notifications/view/notification_screen.dart';
+import 'package:bookstore.tm/features/orders/view/details/orders_screen.dart';
+import 'package:bookstore.tm/features/product_details/view/product_details.dart';
+import 'package:bookstore.tm/features/search/view/search_screen.dart';
+import 'package:bookstore.tm/features/video/view/details/video_details.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/splash_screen.dart';
+import 'package:bookstore.tm/models/categories/category_model.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 enum EnumNavRoutes { home, video, category, cart, profile }
 

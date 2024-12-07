@@ -1,6 +1,6 @@
-import 'package:bookstore/models/property/property_model.dart';
-import 'package:bookstore/models/products/product_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
+import 'package:bookstore.tm/models/products/product_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'product_details_model.g.dart';
 

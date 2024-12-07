@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:bookstore/features/chat/models/conversation.dart';
-import 'package:bookstore/features/chat/models/message.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/chat/models/conversation.dart';
+import 'package:bookstore.tm/features/chat/models/message.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class ChatState {
   final int? currentPage;

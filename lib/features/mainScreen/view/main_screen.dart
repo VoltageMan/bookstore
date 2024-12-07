@@ -2,15 +2,15 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:bookstore/features/cart/view/cart_body.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/home/view/body.dart';
-import 'package:bookstore/features/mainScreen/view/components/main_app_bar.dart';
-import 'package:bookstore/features/mainScreen/view/components/navBar/nav_bar.dart';
-import 'package:bookstore/features/profile/view/profile_body.dart';
-import 'package:bookstore/features/video/view/home_video.dart';
-import 'package:bookstore/helpers/confirm_exit.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/features/cart/view/cart_body.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/home/view/body.dart';
+import 'package:bookstore.tm/features/mainScreen/view/components/main_app_bar.dart';
+import 'package:bookstore.tm/features/mainScreen/view/components/navBar/nav_bar.dart';
+import 'package:bookstore.tm/features/profile/view/profile_body.dart';
+import 'package:bookstore.tm/features/video/view/home_video.dart';
+import 'package:bookstore.tm/helpers/confirm_exit.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({

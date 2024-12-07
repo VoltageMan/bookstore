@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/home/view/components/search_field.dart';
-import 'package:bookstore/features/components/widgets/svg_icons.dart';
-import 'package:bookstore/features/mainScreen/view/components/navBar/nav_bar.dart';
-import 'package:bookstore/features/notifications/cubit/notification_cubit.dart';
-import 'package:bookstore/features/notifications/cubit/notification_state.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/home/view/components/search_field.dart';
+import 'package:bookstore.tm/features/components/widgets/svg_icons.dart';
+import 'package:bookstore.tm/features/mainScreen/view/components/navBar/nav_bar.dart';
+import 'package:bookstore.tm/features/notifications/cubit/notification_cubit.dart';
+import 'package:bookstore.tm/features/notifications/cubit/notification_state.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
   const MainAppBar({

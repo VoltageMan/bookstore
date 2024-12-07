@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:bookstore/app/app.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/app/app.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

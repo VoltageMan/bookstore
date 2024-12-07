@@ -1,4 +1,4 @@
-import 'package:bookstore/models/addres/address_model.dart';
+import 'package:bookstore.tm/models/addres/address_model.dart';
 
 abstract class AddressRepo {
   Future<AddressModel?> create(String address);

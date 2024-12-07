@@ -1,4 +1,4 @@
-import 'package:bookstore/models/property/property_model.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'filter_model.g.dart';
 

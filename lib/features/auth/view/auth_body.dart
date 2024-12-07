@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
-import 'package:bookstore/features/auth/components/auth_field.dart';
-import 'package:bookstore/features/auth/components/confirm_terms%20_of_use.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/models/auth/auth_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore.tm/features/auth/components/auth_field.dart';
+import 'package:bookstore.tm/features/auth/components/confirm_terms%20_of_use.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/models/auth/auth_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class AuthBody extends StatefulWidget {
   const AuthBody({super.key, required this.forSingUp});

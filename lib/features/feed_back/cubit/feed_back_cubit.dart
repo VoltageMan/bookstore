@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/repositories/products/product_repo.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/repositories/products/product_repo.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 part 'feed_back_state.dart';
 

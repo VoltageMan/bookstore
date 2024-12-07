@@ -1,16 +1,16 @@
 import 'package:dart_pusher_channels/dart_pusher_channels.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/app/setup.dart';
-import 'package:bookstore/data/local/secured_storage.dart';
-import 'package:bookstore/features/chat/bloc/chat_events.dart';
-import 'package:bookstore/features/chat/bloc/chat_state.dart';
-import 'package:bookstore/features/chat/models/message.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/overlay_helper.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/repositories/chat/chat_repository.dart';
-import 'package:bookstore/settings/enums.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/app/setup.dart';
+import 'package:bookstore.tm/data/local/secured_storage.dart';
+import 'package:bookstore.tm/features/chat/bloc/chat_events.dart';
+import 'package:bookstore.tm/features/chat/bloc/chat_state.dart';
+import 'package:bookstore.tm/features/chat/models/message.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/overlay_helper.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/repositories/chat/chat_repository.dart';
+import 'package:bookstore.tm/settings/enums.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class ChatBloc extends Bloc<ChatEvent, ChatState> {
   ChatBloc() : super(ChatState()) {

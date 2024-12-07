@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/features/categories/bloc/category_bloc.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/categories/view/mainCategories/main_category_widget.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/models/categories/category_model.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/bloc/category_bloc.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/categories/view/mainCategories/main_category_widget.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/models/categories/category_model.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class MainCategoriesBuilder extends StatelessWidget {
   const MainCategoriesBuilder({

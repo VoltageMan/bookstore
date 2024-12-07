@@ -44,3 +44,6 @@ app.*.map.json
 /android/app/release
 /lib/app/test_screen.dart
 lib/app/test_screen.dart
+
+# FVM Version Cache
+.fvm/

@@ -1,9 +1,9 @@
 import 'package:dynamic_height_grid_view/dynamic_height_grid_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/home/view/components/product_widget.dart';
-import 'package:bookstore/models/products/product_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/home/view/components/product_widget.dart';
+import 'package:bookstore.tm/models/products/product_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class HomeProdBuilder extends StatelessWidget {
   const HomeProdBuilder({

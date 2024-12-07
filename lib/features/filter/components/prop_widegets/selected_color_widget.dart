@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/models/property/values/property_value_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/models/property/values/property_value_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class SelectedFilterColorWidget extends StatelessWidget {
   SelectedFilterColorWidget({super.key, required this.color});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class MyDarkTextButton extends StatelessWidget {
   const MyDarkTextButton({

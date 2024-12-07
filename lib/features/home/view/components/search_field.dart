@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/components/widgets/svg_icons.dart';
-import 'package:bookstore/features/search/cubit/search_cubit.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/widgets/svg_icons.dart';
+import 'package:bookstore.tm/features/search/cubit/search_cubit.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class HomeSearchField extends StatefulWidget {
   const HomeSearchField({super.key});

@@ -1,5 +1,5 @@
-import 'package:bookstore/models/cart/cart_model/cart_model.dart';
-import 'package:bookstore/models/cart/cart_update/cart_update_model.dart';
+import 'package:bookstore.tm/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore.tm/models/cart/cart_update/cart_update_model.dart';
 
 abstract class CartRepo {
   Future<CartModel?> getCurrentCart();

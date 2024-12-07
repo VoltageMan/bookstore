@@ -1,9 +1,9 @@
-import 'package:bookstore/data/remote/dio_client.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/models/cart/cart_model/cart_model.dart';
-import 'package:bookstore/models/cart/cart_update/cart_update_model.dart';
-import 'package:bookstore/repositories/cart/cart_repository.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/data/remote/dio_client.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/models/cart/cart_model/cart_model.dart';
+import 'package:bookstore.tm/models/cart/cart_update/cart_update_model.dart';
+import 'package:bookstore.tm/repositories/cart/cart_repository.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: CartRepo)

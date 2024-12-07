@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/widgets/favors_image.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/features/components/widgets/svg_icons.dart';
-import 'package:bookstore/features/favors/bloc/favors_bloc.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/cart/cart_product_model/cart_product_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
-import 'package:bookstore/helpers/routes.dart';
+import 'package:bookstore.tm/features/components/widgets/favors_image.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/features/components/widgets/svg_icons.dart';
+import 'package:bookstore.tm/features/favors/bloc/favors_bloc.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/cart/cart_product_model/cart_product_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
 
 class FavorsWidget extends StatefulWidget {
   FavorsWidget({

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/features/product_details/bloc/product_details_bloc.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/property/property_model.dart';
-import 'package:bookstore/models/property/values/property_value_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/product_details/bloc/product_details_bloc.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
+import 'package:bookstore.tm/models/property/values/property_value_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class PropertyBuilder extends StatefulWidget {
   const PropertyBuilder({super.key, required this.model});

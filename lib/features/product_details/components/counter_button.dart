@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class CounterButton extends StatelessWidget {
   const CounterButton({

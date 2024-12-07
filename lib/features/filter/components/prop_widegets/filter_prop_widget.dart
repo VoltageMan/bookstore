@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
-import 'package:bookstore/models/property/values/property_value_model.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/filter/bloc/filter_bloc.dart';
+import 'package:bookstore.tm/models/property/values/property_value_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class FilterPropWidget extends StatelessWidget {
   FilterPropWidget({

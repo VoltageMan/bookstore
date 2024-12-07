@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:bookstore/data/local/asset_client.dart';
-import 'package:bookstore/data/remote/dio_client.dart';
-import 'package:bookstore/models/api/response_model.dart';
-import 'package:bookstore/repositories/chat/chat_repository.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/data/local/asset_client.dart';
+import 'package:bookstore.tm/data/remote/dio_client.dart';
+import 'package:bookstore.tm/models/api/response_model.dart';
+import 'package:bookstore.tm/repositories/chat/chat_repository.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:injectable/injectable.dart';
 

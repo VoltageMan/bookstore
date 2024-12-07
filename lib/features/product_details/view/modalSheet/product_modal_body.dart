@@ -1,16 +1,16 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/components/widgets/place_holder.dart';
-import 'package:bookstore/features/components/widgets/sheet_titles.dart';
-import 'package:bookstore/features/orders/components/dashed_line.dart';
-import 'package:bookstore/features/orders/components/order_info_list_tile.dart';
-import 'package:bookstore/features/product_details/view/modalSheet/bottom_bar.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/bill_moedl.dart';
-import 'package:bookstore/models/cart/cart_order_model/cart_order_model.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
+import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
+import 'package:bookstore.tm/features/orders/components/dashed_line.dart';
+import 'package:bookstore.tm/features/orders/components/order_info_list_tile.dart';
+import 'package:bookstore.tm/features/product_details/view/modalSheet/bottom_bar.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/bill_moedl.dart';
+import 'package:bookstore.tm/models/cart/cart_order_model/cart_order_model.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class BuyProdSheetBody extends StatelessWidget {
   const BuyProdSheetBody({super.key, this.bill, required this.model});

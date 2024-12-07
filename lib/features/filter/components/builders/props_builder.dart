@@ -2,16 +2,16 @@ import 'package:extended_wrap/extended_wrap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/filter/bloc/filter_bloc.dart';
-import 'package:bookstore/features/filter/components/line.dart';
-import 'package:bookstore/features/filter/components/prop_widegets/filter_color.dart';
-import 'package:bookstore/features/filter/components/prop_widegets/filter_prop_widget.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/routes.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/models/property/property_model.dart';
-import 'package:bookstore/settings/theme.dart';
+import 'package:bookstore.tm/features/filter/bloc/filter_bloc.dart';
+import 'package:bookstore.tm/features/filter/components/line.dart';
+import 'package:bookstore.tm/features/filter/components/prop_widegets/filter_color.dart';
+import 'package:bookstore.tm/features/filter/components/prop_widegets/filter_prop_widget.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/routes.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/models/property/property_model.dart';
+import 'package:bookstore.tm/settings/theme.dart';
 
 class FilterPropertyBuilder extends StatelessWidget {
   const FilterPropertyBuilder({

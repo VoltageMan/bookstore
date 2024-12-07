@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class SheetListTileSelectedIndicator extends StatelessWidget {
   const SheetListTileSelectedIndicator({super.key, required this.isSelected});

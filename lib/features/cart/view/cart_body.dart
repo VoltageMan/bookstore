@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/data/remote/dio_client.dart';
-import 'package:bookstore/features/cart/cubit/cart_cubit.dart';
-import 'package:bookstore/features/cart/view/cart_info_widget.dart';
-import 'package:bookstore/features/cart/view/cart_widget.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/features/product_details/view/product_details_body.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/spacers.dart';
-import 'package:bookstore/settings/consts.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/data/remote/dio_client.dart';
+import 'package:bookstore.tm/features/cart/cubit/cart_cubit.dart';
+import 'package:bookstore.tm/features/cart/view/cart_info_widget.dart';
+import 'package:bookstore.tm/features/cart/view/cart_widget.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/product_details/view/product_details_body.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
+import 'package:bookstore.tm/settings/consts.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class CartScreen extends StatelessWidget with DioClientMixin {
   CartScreen({super.key});

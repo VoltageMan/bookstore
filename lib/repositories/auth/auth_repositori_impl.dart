@@ -1,10 +1,10 @@
-import 'package:bookstore/data/local/secured_storage.dart';
-import 'package:bookstore/data/remote/dio_client.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/models/auth/auth_model.dart';
-import 'package:bookstore/models/auth/user/user_model.dart';
-import 'package:bookstore/repositories/auth/auth_repositori.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/data/local/secured_storage.dart';
+import 'package:bookstore.tm/data/remote/dio_client.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/models/auth/auth_model.dart';
+import 'package:bookstore.tm/models/auth/user/user_model.dart';
+import 'package:bookstore.tm/repositories/auth/auth_repositori.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: AuthRepo)

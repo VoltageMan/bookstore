@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore/features/components/my_text_button.dart';
-import 'package:bookstore/features/components/widgets/nav_bar_body.dart';
-import 'package:bookstore/features/direct_order/cubit/direct_order_cubit.dart';
-import 'package:bookstore/features/product_details/components/counter_button.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/helpers/spacers.dart';
+import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/widgets/nav_bar_body.dart';
+import 'package:bookstore.tm/features/direct_order/cubit/direct_order_cubit.dart';
+import 'package:bookstore.tm/features/product_details/components/counter_button.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/helpers/spacers.dart';
 
 class BuyProdBottomBar extends StatelessWidget {
   const BuyProdBottomBar({super.key, required this.quantity});

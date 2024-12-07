@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bookstore/features/auth/view/auth_app_bar.dart';
-import 'package:bookstore/features/auth/view/auth_body.dart';
-import 'package:bookstore/helpers/confirm_exit.dart';
-import 'package:bookstore/helpers/extentions.dart';
+import 'package:bookstore.tm/features/auth/view/auth_app_bar.dart';
+import 'package:bookstore.tm/features/auth/view/auth_body.dart';
+import 'package:bookstore.tm/helpers/confirm_exit.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key, required this.forSingUp});

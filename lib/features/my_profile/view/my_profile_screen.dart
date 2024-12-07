@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:bookstore/features/auth/bloc/auth_bloc.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/my_profile/view/my_profile_tile.dart';
-import 'package:bookstore/features/product_details/view/product_details_body.dart';
-import 'package:bookstore/helpers/confirm_exit.dart';
-import 'package:bookstore/helpers/extentions.dart';
-import 'package:bookstore/helpers/modal_sheets.dart';
-import 'package:bookstore/settings/consts.dart';
+import 'package:bookstore.tm/features/auth/bloc/auth_bloc.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/my_profile/view/my_profile_tile.dart';
+import 'package:bookstore.tm/features/product_details/view/product_details_body.dart';
+import 'package:bookstore.tm/helpers/confirm_exit.dart';
+import 'package:bookstore.tm/helpers/extentions.dart';
+import 'package:bookstore.tm/helpers/modal_sheets.dart';
+import 'package:bookstore.tm/settings/consts.dart';
 
 class MyProfileScreen extends StatefulWidget {
   const MyProfileScreen({super.key});

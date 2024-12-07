@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore/features/categories/view/body.dart';
-import 'package:bookstore/features/components/widgets/product_pagination_bottom.dart';
-import 'package:bookstore/features/home/view/components/product_builder.dart';
-import 'package:bookstore/features/more_simmilar_products/cubit/more_sim_prods_cubit.dart';
-import 'package:bookstore/settings/enums.dart';
+import 'package:bookstore.tm/features/categories/view/body.dart';
+import 'package:bookstore.tm/features/components/widgets/product_pagination_bottom.dart';
+import 'package:bookstore.tm/features/home/view/components/product_builder.dart';
+import 'package:bookstore.tm/features/more_simmilar_products/cubit/more_sim_prods_cubit.dart';
+import 'package:bookstore.tm/settings/enums.dart';
 
 class MoreSimProdsBody extends StatefulWidget {
   const MoreSimProdsBody({super.key});
