@@ -1,4 +1,4 @@
-package com.bookstore.tm
+package com.bookstoretm.tm
 
 import io.flutter.embedding.android.FlutterActivity
 
