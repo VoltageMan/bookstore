@@ -39,13 +39,13 @@ dependencies:
   flutter_staggered_grid_view: ^0.6.2
   json_annotation: ^4.8.1
   path_provider: ^2.1.1
-  flutter_avif: ^1.0.1
+  flutter_avif: ^3.0.0
   dart_pusher_channels: ^1.1.1
   image_picker: ^1.0.4
   web_socket_channel: ^2.4.0
   another_flushbar: ^1.12.30
   restart_app: ^1.2.1
-  cached_video_player_fork: ^2.1.1
+  cached_video_player_plus: ^3.0.3
   package_info_plus: ^4.2.0
   pinenacl: ^0.6.0
 

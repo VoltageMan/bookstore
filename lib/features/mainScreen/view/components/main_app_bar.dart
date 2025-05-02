@@ -109,14 +109,51 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
                                 ModelBottomSheetHelper.showFilterSheet(),
                           ),
                         ),
-                        IconButton(
-                            splashRadius: 1,
-                            splashColor: Colors.transparent,
-                            iconSize: 22.sp,
-                            onPressed: () {
-                              appRouter.currentContext.push(AppRoutes.chat);
-                            },
-                            icon: Icon(Icons.chat))
+
+                        // Chat icon
+                        Stack(
+                          children: [
+                            IconButton(
+                                splashRadius: 1,
+                                splashColor: Colors.transparent,
+                                iconSize: 22.sp,
+                                onPressed: () {
+                                  appRouter.currentContext.push(AppRoutes.chat);
+                                },
+                                icon: Icon(Icons.chat)),
+
+                            // Badge Notification with counter
+                            BlocBuilder<NotificationCubit, NotificationState>(
+                              builder: (context, notifState) {
+                                if (notifState.newNotificationsCount == 0) {
+                                  return SizedBox();
+                                }
+
+                                return Positioned(
+                                  top: 6.h,
+                                  right: 6.w,
+                                  child: Container(
+                                    height: 20.h,
+                                    padding: EdgeInsets.all(3.sp),
+                                    decoration: BoxDecoration(
+                                      color: Colors.red,
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: FittedBox(
+                                        child: Text(
+                                      '2',
+                                      style: context
+                                          .theme.textTheme.displaySmall!
+                                          .copyWith(
+                                        color: Colors.white,
+                                      ),
+                                    )),
+                                  ),
+                                );
+                              },
+                            ),
+                          ],
+                        )
                       ],
                     ),
         );

@@ -1,6 +1,8 @@
+import 'package:bookstore.tm/settings/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:bookstore.tm/data/local/secured_storage.dart';
 import 'package:bookstore.tm/features/address/cubit/address_cubit.dart';
@@ -116,6 +118,41 @@ class _ProfileBodyState extends State<ProfileBody> {
               tralling: contents[index],
             ),
           ),
+
+          //
+          Spacer(),
+
+          // Politics
+          GestureDetector(
+            onTap: () {},
+            child: Text(
+              'Ulanyjy ylalaşygy',
+              style: AppTheme.titleMedium12(context).copyWith(
+                decoration: TextDecoration.underline,
+              ),
+            ),
+          ),
+
+          //
+          SizedBox(
+            height: 12.h,
+          ),
+
+          // Politics
+          GestureDetector(
+            onTap: () {},
+            child: Text(
+              'Gizlinlik syýasaty',
+              style: AppTheme.titleMedium12(context).copyWith(
+                decoration: TextDecoration.underline,
+              ),
+            ),
+          ),
+
+          //
+          SizedBox(
+            height: 36.h,
+          )
         ],
       ),
     );

@@ -24,10 +24,12 @@ class CartWidget extends StatelessWidget {
 
   static late final _height = _getSize;
   final CartOrderModel model;
+
   @override
   Widget build(BuildContext context) {
     final product = model.product;
     final cubit = context.read<CartCubit>();
+
     return GestureDetector(
       onTap: () {
         ModelBottomSheetHelper.showOrderDetails(model);

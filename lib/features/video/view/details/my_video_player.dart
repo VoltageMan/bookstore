@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:cached_video_player_fork/cached_video_player.dart';
+import 'package:cached_video_player_plus/cached_video_player_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bookstore.tm/features/components/widgets/place_holder.dart';
@@ -52,13 +52,15 @@ class _MyVideoPlayerWidgetState extends State<MyVideoPlayerWidget> {
       return;
     }
     widget.index.log(message: 'initing');
-    controller = await CachedVideoPlayerController.network(model.url);
+    controller = await CachedVideoPlayerPlusController.networkUrl(
+      Uri.tryParse(model.url) ?? Uri.base,
+    );
     await controller!.initialize();
     setState(() {});
     controller!.play();
   }
 
-  CachedVideoPlayerController? controller;
+  CachedVideoPlayerPlusController? controller;
 
   @override
   Widget build(BuildContext context) {
@@ -86,7 +88,7 @@ class _MyVideoPlayerWidgetState extends State<MyVideoPlayerWidget> {
                 },
                 child: AspectRatio(
                   aspectRatio: controller!.value.aspectRatio,
-                  child: CachedVideoPlayer(
+                  child: CachedVideoPlayerPlus(
                     controller!,
                   ),
                 ),

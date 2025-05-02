@@ -49,12 +49,15 @@ class _DioClient {
   late final Dio _dio;
   Options addHeaders(Options? options) {
     final token = LocalStorage.getToken;
+
     final langHead = {
       'Accept': 'application/json',
       'Accept-Language': locale.value == 'tr' ? 'tk' : locale.value,
       'Authorization': 'Bearer $token',
     };
+
     if (options == null) return Options(headers: langHead);
+
     return options.copyWith(
       headers: options.headers!..addAll(langHead),
     );
@@ -72,6 +75,7 @@ class _DioClient {
         data: data,
         options: addHeaders(options),
       );
+
       return ApiResponse.fromJson(res.data as Map<String, dynamic>);
     } catch (e, s) {
       'zero Step'.log();
@@ -95,9 +99,11 @@ class _DioClient {
         queryParameters: queryParameters,
         cancelToken: cancelToken,
       );
+
       return ApiResponse.fromJson(res.data as Map<String, dynamic>);
     } catch (e, s) {
       'ERROR GET'.log();
+
       return await _handleException(e, s);
     }
   }

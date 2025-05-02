@@ -42,6 +42,15 @@ class _ProdDetailsBottomBarState extends State<ProdDetailsBottomBar> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              // Chat icon
+              IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.chat,
+                ),
+              ),
+
+              // Buy now button
               Expanded(
                 child: MyDarkTextButton(
                   title: l10n.buy,
@@ -53,7 +62,11 @@ class _ProdDetailsBottomBarState extends State<ProdDetailsBottomBar> {
                   },
                 ),
               ),
+
+              //
               AppSpacing.horizontal_16,
+
+              // Add to cart button
               Expanded(
                 child: CounterButton(
                   quantity: quantity,
