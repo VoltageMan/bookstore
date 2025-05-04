@@ -1,3 +1,5 @@
+import 'package:bookstore.tm/features/components/custom_button.dart';
+import 'package:bookstore.tm/features/product_details/view/product_comment_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -197,6 +199,46 @@ class _ProdDetailsBodyState extends State<ProdDetailsBody>
                 },
               ).toList(),
               DeliveryWidget(),
+
+              // Comments
+              Padding(
+                padding: AppPaddings.top_20.add(AppPaddings.horiz_16),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      'Jemi ýazylan teswirler: 414',
+                      style: AppTheme.titleMedium14(context),
+                    ),
+                    CustomButton(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 16.w,
+                        vertical: 9.h,
+                      ),
+                      title: 'Teswir ýaz',
+                      textStyle: AppTheme.displayMedium12(context),
+                    ),
+                  ],
+                ),
+              ),
+
+              //
+              SizedBox(
+                height: 320.h,
+                child: ScrollConfiguration(
+                  behavior: MyBehavior(),
+                  child: ListView.builder(
+                    padding: AppPaddings.horiz_12,
+                    itemCount: 3,
+                    itemBuilder: (context, index) {
+                      return ProductCommentWidget();
+                    },
+                  ),
+                ),
+              ),
+
+              // Similar products
               Padding(
                 padding: AppPaddings.top_20.add(AppPaddings.horiz_16),
                 child: Row(

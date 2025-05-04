@@ -202,6 +202,7 @@ class AssetsPath {
   static const bellIcon = 'assets/icons/bell.svg';
   static const crossIcon = 'assets/icons/cross.svg';
   static const roundedCrossIcon = 'assets/icons/roundedCross.svg';
+  static const commentStar = 'assets/icons/comment_star.svg';
 
   static const addresIcon = 'assets/icons/delivery_address.svg';
   static const langIcon = 'assets/icons/profileIcons/lang.svg';

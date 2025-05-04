@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/helpers/extentions.dart';
 import 'package:bookstore.tm/settings/consts.dart';
 
@@ -20,7 +20,7 @@ class CounterButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return quantity == 0
-        ? MyDarkTextButton(
+        ? CustomButton.orange(
             title: title,
             onTap: () {
               onAdd();
@@ -41,7 +41,7 @@ class CounterButton extends StatelessWidget {
                         width: 1.5.w,
                       ),
                       borderRadius: BorderRadius.horizontal(
-                        left: Radius.circular(6.r),
+                        left: Radius.circular(40.r),
                       ),
                     ),
                     child: const FittedBox(
@@ -77,7 +77,7 @@ class CounterButton extends StatelessWidget {
                         width: 1.5.w,
                       ),
                       borderRadius: BorderRadius.horizontal(
-                        right: Radius.circular(6.r),
+                        right: Radius.circular(40.r),
                       ),
                     ),
                     child: const FittedBox(

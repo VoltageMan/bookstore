@@ -3,7 +3,7 @@ import 'package:flutter_keyboard_size/flutter_keyboard_size.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:bookstore.tm/features/auth/bloc/auth_bloc.dart';
 import 'package:bookstore.tm/features/auth/components/auth_field.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
 import 'package:bookstore.tm/helpers/extentions.dart';
 import 'package:bookstore.tm/helpers/spacers.dart';
@@ -50,7 +50,7 @@ class _ChangeUserNameSheetState extends State<ChangeUserNameSheet> {
           ),
           Padding(
             padding: AppPaddings.horiz_16.copyWith(bottom: 16.h, top: 10.h),
-            child: MyDarkTextButton(
+            child: CustomButton(
               title: context.l10n.save,
               onTap: () async {
                 final newName = controller.text;

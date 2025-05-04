@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/features/components/widgets/nav_bar_body.dart';
 import 'package:bookstore.tm/features/direct_order/cubit/direct_order_cubit.dart';
 import 'package:bookstore.tm/features/product_details/components/counter_button.dart';
@@ -37,7 +37,7 @@ class BuyProdBottomBar extends StatelessWidget {
           ),
           AppSpacing.horizontal_16,
           Expanded(
-            child: MyDarkTextButton(
+            child: CustomButton(
               title: l10n.buy,
               onTap: () async {
                 ModelBottomSheetHelper.doPop();

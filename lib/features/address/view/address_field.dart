@@ -3,7 +3,7 @@ import 'package:flutter_keyboard_size/flutter_keyboard_size.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:bookstore.tm/features/address/cubit/address_cubit.dart';
 import 'package:bookstore.tm/features/auth/components/auth_field.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
 import 'package:bookstore.tm/helpers/extentions.dart';
 import 'package:bookstore.tm/helpers/overlay_helper.dart';
@@ -112,7 +112,7 @@ class _AddressFieldState extends State<AddressField> {
           ),
           Padding(
             padding: AppPaddings.horiz_16.copyWith(bottom: 16.h, top: 10.h),
-            child: MyDarkTextButton(
+            child: CustomButton(
               title: l10n.save,
               onTap: () async {
                 final model = widget.model;

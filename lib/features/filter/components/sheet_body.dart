@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:bookstore.tm/features/categories/view/body.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/features/components/widgets/nav_bar_body.dart';
 import 'package:bookstore.tm/features/components/widgets/sheet_titles.dart';
 import 'package:bookstore.tm/features/filter/bloc/filter_bloc.dart';
@@ -86,7 +86,7 @@ class _FilterSheetBodyState extends State<FilterSheetBody> {
                 ),
               ),
               NavBarBody(
-                child: MyDarkTextButton(
+                child: CustomButton(
                   title: l10n.products,
                   child: ValueListenableBuilder(
                     valueListenable: bloc.productCountNotifier,

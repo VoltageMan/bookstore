@@ -54,6 +54,9 @@ class _ProdColorBuilderState extends State<ProdColorBuilder> {
                         isSelected: isSelected,
                         onTap: () {
                           bloc.selecProp(model.name, item.id);
+
+                          bloc.init(item.id);
+
                           setState(() {});
                         },
                       ),

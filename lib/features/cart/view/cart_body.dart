@@ -6,7 +6,7 @@ import 'package:bookstore.tm/features/cart/cubit/cart_cubit.dart';
 import 'package:bookstore.tm/features/cart/view/cart_info_widget.dart';
 import 'package:bookstore.tm/features/cart/view/cart_widget.dart';
 import 'package:bookstore.tm/features/categories/view/body.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/features/product_details/view/product_details_body.dart';
 import 'package:bookstore.tm/helpers/extentions.dart';
 import 'package:bookstore.tm/helpers/modal_sheets.dart';
@@ -64,7 +64,7 @@ class CartScreen extends StatelessWidget with DioClientMixin {
             Container(
               height: 48.h,
               margin: AppPaddings.all_16,
-              child: MyDarkTextButton(
+              child: CustomButton(
                 title: context.l10n.next,
                 width: double.infinity,
                 onTap: () {

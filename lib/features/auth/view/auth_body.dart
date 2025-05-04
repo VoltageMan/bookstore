@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:bookstore.tm/features/auth/bloc/auth_bloc.dart';
 import 'package:bookstore.tm/features/auth/components/auth_field.dart';
 import 'package:bookstore.tm/features/auth/components/confirm_terms%20_of_use.dart';
-import 'package:bookstore.tm/features/components/my_text_button.dart';
+import 'package:bookstore.tm/features/components/custom_button.dart';
 import 'package:bookstore.tm/helpers/extentions.dart';
 import 'package:bookstore.tm/helpers/routes.dart';
 import 'package:bookstore.tm/models/auth/auth_model.dart';
@@ -96,7 +96,7 @@ class _AuthBodyState extends State<AuthBody>
         ),
         Padding(
           padding: AppPaddings.horiz_16.copyWith(top: 21.h),
-          child: MyDarkTextButton(
+          child: CustomButton(
             title: l10n.next,
             onTap: () async {
               final number = '993${numController.text}';

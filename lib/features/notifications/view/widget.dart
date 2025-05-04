@@ -53,12 +53,12 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                 Padding(
                   padding: AppPaddings.vertic_8,
                   child: Text(
-                    widget.notif?.subTitle ?? '',
+                    widget.notif?.description ?? '',
                     style: theme.titleSmall,
                   ),
                 ),
                 Text(
-                  widget.notif?.date ?? '',
+                  widget.notif?.created_at ?? '',
                   style: AppTheme.bodyMedium10(context),
                 ),
               ],
